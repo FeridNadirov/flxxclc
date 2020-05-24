@@ -1,0 +1,110 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contianer {
+    width: 40rem;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    border: 1px solid var(--black);
+
+    
+}
+
+
+.screen
+{
+background-color: #000000;
+color: white;
+height: 80px;
+
+
+
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+font-size: 5rem;
+}
+
+.btn
+{
+	
+  background-color: #D7D7D7;
+  color: #000000;
+  width: 90px; 
+  padding: 20px;
+  display: inline-block;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -6px;
+  border-bottom: solid 1.5px #010101; 
+  border-right: solid 1.5px #000000;
+  border-top: 0.5px;
+  border-left: 0.5px;
+ 
+  transition: background-color 1s
+  
+
+}
+
+
+
+
+.btn-func
+{
+width:13rem;
+background: #DC8630;
+color: #ffffff;
+}
+
+
+
+
+
+.clear
+{
+width: 180px;
+}
+
+
+
+.zero
+
+{
+width: 270px;
+}
+
+
+.btn:hover
+{
+	background-color: #C4C4C4;
+	
+}
